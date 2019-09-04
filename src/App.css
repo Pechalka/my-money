@@ -1,0 +1,95 @@
+
+
+.app {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.categories {
+	list-style: none;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+}
+
+.categories li {
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.add-category {
+	padding:  10px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.add-category input {
+	padding:  5px;
+}
+
+.add-category button {
+	padding:  5px;
+}
+
+.balance {
+	border: 1px solid #ccc;
+	min-height: 300px;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.balance__content {
+	width: 500px;
+}
+
+.balance__row {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.table td, th {
+	padding: 10px;
+	text-align: left
+}
+
+.tabs {
+	border-bottom: 1px solid #ccc;
+}
+
+.tabs button {
+	display: inline-block;
+	padding: 20px;
+	background: none;
+	border: none;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tabs button[disabled] {
+	opacity: 0.3;
+}
+
+.add-spending {
+	padding:  20px;
+	padding-left: 0;
+}
+
+.footer {
+	padding:  20px;
+	padding-left: 0;	
+}
