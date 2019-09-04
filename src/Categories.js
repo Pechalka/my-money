@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import * as actions from './reduxModule';
 
 class Categories extends React.Component {
   addcategory = () => {
@@ -41,4 +43,9 @@ class Categories extends React.Component {
   }
 }
 
-export default Categories;
+export default connect(
+  state => ({
+    categories: state.categories
+  }),
+  actions
+)(Categories);

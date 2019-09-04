@@ -6,19 +6,7 @@
 	padding-top: 50px;
 }
 
-.categories {
-	list-style: none;
-	border: 1px solid #ccc;
-	border-bottom: none;
-	margin: 0;
-	padding: 0;
-}
 
-.categories li {
-	display: block;
-	padding: 10px;
-	border-bottom: 1px solid #ccc;
-}
 
 .add-category {
 	padding:  10px;
@@ -34,24 +22,6 @@
 	padding:  5px;
 }
 
-.balance {
-	border: 1px solid #ccc;
-	min-height: 300px;
-	font-size: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.balance__content {
-	width: 500px;
-}
-
-.balance__row {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 20px;
-}
 
 .table {
 	width: 100%;

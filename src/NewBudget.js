@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import * as actions from './reduxModule';
 
 class NewBudget extends React.Component {
   state = {
@@ -85,4 +87,10 @@ class NewBudget extends React.Component {
   }
 }
 
-export default NewBudget;
+export default connect(
+  state => ({
+    defaultBudget: state.oldBudget,
+    categories: state.categories
+  }),
+  actions
+)(NewBudget);
